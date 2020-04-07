@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 import java.util.UUID;
 
 public class RuntimeSettings extends UserSettings {
-    public static final LAUNCHER_LOCALE DEFAULT_LOCALE = LAUNCHER_LOCALE.RUSSIAN;
+    public static final LAUNCHER_LOCALE DEFAULT_LOCALE = LAUNCHER_LOCALE.CHECHEN;
     public transient Path updatesDir;
     @LauncherNetworkAPI
     public String login;
@@ -53,7 +53,7 @@ public class RuntimeSettings extends UserSettings {
 
     public enum LAUNCHER_LOCALE {
         @LauncherNetworkAPI
-        RUSSIAN("ce", "Нохчийн"),
+        CHECHEN("ce", "Нохчийн"),
         @LauncherNetworkAPI
         RUSSIAN("ru", "Русский"),
         @LauncherNetworkAPI
